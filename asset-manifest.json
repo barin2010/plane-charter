@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/plane-charter/static/css/main.dde4079e.css",
+    "main.js": "/plane-charter/static/js/main.264e84de.js",
+    "static/media/background_2x.png": "/plane-charter/static/media/background_2x.d4e68e4863f3dfa7c8e3.png",
+    "static/media/plane_2x.png": "/plane-charter/static/media/plane_2x.1b0e55cbe770372164a0.png",
+    "static/media/background_1x.png": "/plane-charter/static/media/background_1x.7c0502b33cd84133c244.png",
+    "static/media/saloon_2x.png": "/plane-charter/static/media/saloon_2x.1e2a72fdd8fe49bf8a62.png",
+    "static/media/plane_1x.png": "/plane-charter/static/media/plane_1x.ef8c60539d7eacb9a5ae.png",
+    "static/media/plane.png": "/plane-charter/static/media/plane.50495173358a4f664215.png",
+    "static/media/saloon_1x.png": "/plane-charter/static/media/saloon_1x.a91db2844b5c62babb96.png",
+    "static/media/Inter-Regular.woff": "/plane-charter/static/media/Inter-Regular.0d6f7c99e635f1fec4c9.woff",
+    "static/media/Inter-Regular.woff2": "/plane-charter/static/media/Inter-Regular.bd097ceff83f90802a12.woff2",
+    "static/media/Roboto-Bold.woff": "/plane-charter/static/media/Roboto-Bold.3f2cbde6b72e8d05669f.woff",
+    "static/media/Roboto-Regular.woff": "/plane-charter/static/media/Roboto-Regular.31012f9b3e3da44f87e8.woff",
+    "static/media/Poppins-Regular.woff": "/plane-charter/static/media/Poppins-Regular.7d50cfcb7fdf5bd337a0.woff",
+    "static/media/Poppins-Bold.woff": "/plane-charter/static/media/Poppins-Bold.125974335c0c9046c212.woff",
+    "static/media/Poppins-SemiBold.woff": "/plane-charter/static/media/Poppins-SemiBold.b5329103e193298fe15e.woff",
+    "static/media/ProstoOne-Regular.woff": "/plane-charter/static/media/ProstoOne-Regular.7fec5e2a705f4b0fe6a5.woff",
+    "static/media/air.svg": "/plane-charter/static/media/air.d114a4c0ac3e2be9cc28e05567542235.svg",
+    "static/media/Rectangle_2x.png": "/plane-charter/static/media/Rectangle_2x.2fdff4559f5abb18eb5f.png",
+    "index.html": "/plane-charter/index.html",
+    "static/media/arrow-right 1.svg": "/plane-charter/static/media/arrow-right 1.c01112b4c30f4e3173aa060b8f1999fa.svg",
+    "static/media/Rectangle_left.svg": "/plane-charter/static/media/Rectangle_left.0d4814dde050a98ad66bd28a71965542.svg",
+    "static/media/Rectangle_right.svg": "/plane-charter/static/media/Rectangle_right.6158aeebb1d2cb17251e20b1c06c72e6.svg",
+    "main.dde4079e.css.map": "/plane-charter/static/css/main.dde4079e.css.map",
+    "main.264e84de.js.map": "/plane-charter/static/js/main.264e84de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dde4079e.css",
+    "static/js/main.264e84de.js"
+  ]
+}
