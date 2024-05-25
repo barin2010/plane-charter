@@ -1,0 +1,111 @@
+.header {
+  background-image: image-set(
+    url('../../images/header/background_1x.png') 1x,
+    url('../../images/header/background_2x.png') 2x,
+    url(../../images/header/Rectangle_1x.png) 1x,
+    url(../../images/header/Rectangle_2x.png) 2x
+  );
+
+  width: 1440px;
+  height: auto;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border: none;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  z-index: -1;
+  padding: 0 64px;
+}
+.headerTop {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 75.6px;
+}
+/* .headerLogo {
+} */
+.headerList {
+  display: flex;
+  gap: 20px;
+}
+.headerItem {
+  font-size: 14px;
+  font-weight: 500;
+
+  color: var(--secondary-font-color-181818);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.registerBtn {
+  border: none;
+  background-color: inherit;
+  font-size: 14px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: var(--primary-font-color-151515);
+}
+.loginBtn {
+  padding: 5px 23px;
+  background-color: var(--btn-color-primary-656293);
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--white-color-FFFFFF);
+  cursor: pointer;
+}
+.headerBoxTwo {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.headerBoxTexst {
+  width: 587px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-top: 107px;
+}
+.headerTitle {
+  font-family: var(--third-font-Roboto);
+  font-size: 66px;
+  color: var(--primary-font-color-151515);
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+.headerTitle span {
+  font-weight: 600;
+  color: var(--btn-color-primary-656293);
+}
+.headerExplore {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.exploreText {
+  font-size: 16px;
+  color: var(--primary-font-color-151515);
+}
+.arrowRight {
+  width: 16px;
+  height: 16px;
+}
+.headerBoxImg {
+  margin-bottom: 150px;
+  border-radius: 120px;
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25),
+    0px 4px 5px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.headerPlane {
+  width: 360px;
+  border-radius: 120px;
+  border: 15px solid var(--white-color-FFFFFF);
+  /* box-shadow: 0px 60px 5px 0px rgba(0, 0, 0, 0.25) inset; */
+  /* box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.9); */
+}

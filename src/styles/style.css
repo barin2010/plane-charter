@@ -74,7 +74,11 @@
   --fourth-font-ProstoOne: 'ProstoOne';
 
   /* color */
+  --white-color-FFFFFF: #ffffff;
+  --black-color-000000:#000000
   --primary-font-color-151515: #151515;
+  --secondary-font-color-181818: #181818;
+  --btn-color-primary-656293: #656293;
 }
 
 body {
