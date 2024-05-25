@@ -1,0 +1,28 @@
+.perfomanceWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 66px;
+}
+.perfomanceTitle {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--black-color-000000);
+  margin-bottom: 68px;
+}
+.perfomanceBox {
+  display: flex;
+  gap: 36px;
+}
+.perfomanceList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.perfomanceItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
