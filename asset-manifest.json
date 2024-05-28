@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plane-charter/static/css/main.52d7a526.css",
-    "main.js": "/plane-charter/static/js/main.e0160e85.js",
+    "main.css": "/plane-charter/static/css/main.e34bda48.css",
+    "main.js": "/plane-charter/static/js/main.ac87751f.js",
     "static/media/background_2x.png": "/plane-charter/static/media/background_2x.d4e68e4863f3dfa7c8e3.png",
     "static/media/plane_2x.png": "/plane-charter/static/media/plane_2x.fd88cec855d88a2c6748.png",
     "static/media/background_1x.png": "/plane-charter/static/media/background_1x.7c0502b33cd84133c244.png",
@@ -41,11 +41,11 @@
     "static/media/arrow-right 1.svg": "/plane-charter/static/media/arrow-right 1.c01112b4c30f4e3173aa060b8f1999fa.svg",
     "static/media/Rectangle_left.svg": "/plane-charter/static/media/Rectangle_left.0d4814dde050a98ad66bd28a71965542.svg",
     "static/media/Rectangle_right.svg": "/plane-charter/static/media/Rectangle_right.6158aeebb1d2cb17251e20b1c06c72e6.svg",
-    "main.52d7a526.css.map": "/plane-charter/static/css/main.52d7a526.css.map",
-    "main.e0160e85.js.map": "/plane-charter/static/js/main.e0160e85.js.map"
+    "main.e34bda48.css.map": "/plane-charter/static/css/main.e34bda48.css.map",
+    "main.ac87751f.js.map": "/plane-charter/static/js/main.ac87751f.js.map"
   },
   "entrypoints": [
-    "static/css/main.52d7a526.css",
-    "static/js/main.e0160e85.js"
+    "static/css/main.e34bda48.css",
+    "static/js/main.ac87751f.js"
   ]
 }
