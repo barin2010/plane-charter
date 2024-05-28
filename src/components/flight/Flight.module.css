@@ -1,17 +1,15 @@
 .flightWrapper {
   position: absolute;
-
-  top: -100px;
+  top: -120px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 10;
   display: flex;
   padding: 34px 29px;
-  margin-bottom: 24px;
   flex-direction: column;
   width: 1110px;
   border-radius: 12px;
-  color: var(--white-color-FFFFFF);
+  background-color: var(--white-color-FFFFFF);
   box-shadow: 0 1px 3px 0 rgba(19, 10, 46, 0.13),
     0 3px 14px 0 rgba(19, 10, 46, 0.03), 0 8px 32px 0 rgba(19, 10, 46, 0.07),
     0 30px 84px 0 rgba(19, 10, 46, 0.08);
@@ -27,6 +25,7 @@
 .flightSelect {
   margin-right: 10px;
   border: none;
+  border-color: inherit;
 }
 .flightBoxOll {
   display: flex;
@@ -44,9 +43,10 @@
 }
 .flightBoxAnd {
   display: flex;
+  justify-content: space-between;
   gap: 31px;
   min-width: 300px;
-
+  width: 381px;
   border-radius: 10px;
   padding: 16px 20px;
   border: 1px solid #aaa;
@@ -62,6 +62,7 @@
   font-weight: 600;
   font-size: 24px;
   color: var(--primary-font-color-151515);
+  letter-spacing: 1.5px;
 }
 .flightImg {
   width: 28px;
@@ -78,9 +79,15 @@
 .flightCalendar {
   display: flex;
   gap: 25px;
+  align-items: center;
+}
+.flightCalendarImg {
+  width: 24px;
+  height: 24px;
 }
 .prevBox {
   display: flex;
+  gap: 44px;
 }
 .flightReq {
   font-size: 14px;
