@@ -10,7 +10,7 @@ const Perfomance = () => {
   return (
     <section className={css.perfomance}>
       <div className="container">
-        <div className={css.perfomanceWrapper}>
+        <div id="specification" className={css.perfomanceWrapper}>
           <h3 className={css.perfomanceTitle}>
             Private Jet Performance and Specifications
           </h3>
@@ -39,7 +39,7 @@ const Perfomance = () => {
                 </p>
               </li>
             </ul>
-            <div>
+            <div className={css.perfomanceImgBox}>
               <img className={css.perfomanceImg} src={plane} alt="plane" />
             </div>
             <ul className={css.perfomanceList}>

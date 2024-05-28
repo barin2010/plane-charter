@@ -13,12 +13,24 @@ const Header = () => {
             <img className={css.headerLogo} src={logo} alt="logo" />
             <nav className={css.headerNavigation}>
               <ul className={css.headerList}>
-                <li className={css.headerItem}>Home </li>
-                <li className={css.headerItem}>Booking</li>
-                <li className={css.headerItem}>Private Jet</li>
-                <li className={css.headerItem}>Specification</li>
-                <li className={css.headerItem}>Luxury Charters</li>
-                <li className={css.headerItem}>Membership</li>
+                <li className={css.headerItem}>
+                  <a href="/#">Home</a>
+                </li>
+                <li className={css.headerItem}>
+                  <a href="#/">Booking</a>
+                </li>
+                <li className={css.headerItem}>
+                  <a href="#private">Private Jet</a>
+                </li>
+                <li className={css.headerItem}>
+                  <a href="#specification">Specification</a>
+                </li>
+                <li className={css.headerItem}>
+                  <a href="#Luxury Charters">Luxury Charters</a>
+                </li>
+                <li className={css.headerItem}>
+                  <a href="#membership">Membership</a>
+                </li>
               </ul>
             </nav>
             <div className={css.headerBoxButton}>

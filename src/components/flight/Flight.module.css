@@ -1,0 +1,115 @@
+.flightWrapper {
+  position: absolute;
+
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  padding: 34px 29px;
+  margin-bottom: 24px;
+  flex-direction: column;
+  width: 1110px;
+  border-radius: 12px;
+  color: var(--white-color-FFFFFF);
+  box-shadow: 0 1px 3px 0 rgba(19, 10, 46, 0.13),
+    0 3px 14px 0 rgba(19, 10, 46, 0.03), 0 8px 32px 0 rgba(19, 10, 46, 0.07),
+    0 30px 84px 0 rgba(19, 10, 46, 0.08);
+}
+.flightSelectBox {
+  display: flex;
+}
+.selectText {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--primary-font-color-151515);
+}
+.flightSelect {
+  margin-right: 10px;
+  border: none;
+}
+.flightBoxOll {
+  display: flex;
+  align-items: center;
+}
+.flightBox {
+  min-width: 300px;
+  height: 100%;
+  border-radius: 10px;
+  padding: 16px 20px;
+  border: 1px solid #aaa;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.flightBoxAnd {
+  display: flex;
+  gap: 31px;
+  min-width: 300px;
+
+  border-radius: 10px;
+  padding: 16px 20px;
+  border: 1px solid #aaa;
+  margin-left: auto;
+}
+.flightFrom {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-font-color-151515);
+  opacity: 60%;
+}
+.flightWhere {
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--primary-font-color-151515);
+}
+.flightImg {
+  width: 28px;
+  height: 28px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+.flightBoxThree {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.flightCalendar {
+  display: flex;
+  gap: 25px;
+}
+.prevBox {
+  display: flex;
+}
+.flightReq {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-font-color-151515);
+  margin-top: 16px;
+  text-decoration: underline;
+}
+.flightBtn {
+  display: flex;
+  width: 233px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 30px;
+  border-radius: 10px;
+  background-color: var(--btn-color-primary-656293);
+  position: absolute;
+  bottom: -40px;
+  right: 50%;
+  transform: translateX(50%);
+  cursor: pointer;
+}
+.btnText {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--white-color-FFFFFF);
+}
+.btnImg:hover,
+.btnImg:focus {
+  width: 20%;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in-out;
+}

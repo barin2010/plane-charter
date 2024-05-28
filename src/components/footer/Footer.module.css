@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--btn-color-primary-656293);
+}
+.footerWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 51px 61px 15px 61px;
+  align-items: center;
+  justify-content: center;
+}
+.footerPlane {
+  width: 139px;
+  margin-bottom: 29.6px;
+}
+.footerBox {
+  width: 100%;
+}
+.footerNav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.footerList {
+  width: 100%;
+  display: flex;
+  width: 361px;
+  justify-content: space-between;
+}
+.footerItem,
+.footerText {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white-color-FFFFFF);
+  opacity: 70%;
+}

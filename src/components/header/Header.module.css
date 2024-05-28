@@ -42,6 +42,10 @@
   color: var(--secondary-font-color-181818);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+.headerItem:hover,
+.headerItem:focus {
+  color: blue;
+}
 .registerBtn {
   border: none;
   background-color: inherit;
@@ -91,10 +95,23 @@
 .exploreText {
   font-size: 16px;
   color: var(--primary-font-color-151515);
+  cursor: pointer;
+}
+.exploreText:hover,
+.exploreText:focus {
+  transition: ease-in-out;
+  font-size: 110%;
 }
 .arrowRight {
   width: 16px;
   height: 16px;
+  cursor: pointer;
+}
+.arrowRight:hover,
+.arrowRight:hover {
+  width: 25px;
+  height: 25px;
+  transition: ease-in-out;
 }
 .headerBoxImg {
   margin-bottom: 150px;

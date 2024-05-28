@@ -1,0 +1,117 @@
+.enjoyWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 17px;
+}
+.enjoyTitleOne {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--black-color-000000);
+  margin-bottom: 65px;
+}
+.enjoyBoxOll {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom:17px
+}
+.enjoyBox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey-secondary-F5F5F5);
+  padding: 24px;
+}
+
+.enjoyBox.left {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 1px solid var(--black-color-000000);
+}
+.enjoyBox.right {
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.enjoyBox.dark {
+  border-radius: 20px;
+  background-color: var(--btn-color-primary-656293);
+  margin-bottom: 40px;
+}
+.enjoyTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: var(--primary-font-color-151515);
+  margin-bottom: 32px;
+}
+.enjoyTitle.dark {
+  color: var(--white-color-FFFFFF);
+}
+.enjoyDeck {
+  font-size: 22px;
+  font-weight: 400;
+  color: var(--grey-color-A9A9AA);
+  margin-bottom: 24px;
+}
+.enjoyList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-bottom: 1px dashed #a9a9aa;
+  padding-bottom: 18px;
+  margin-bottom: 65px;
+}
+.enjoyItem {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.enjoyIcon {
+  width: 20px;
+  height: 20px;
+}
+.enjoyItemText {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-font-color-151515);
+}
+.enjoyItemText.dark {
+  color: var(--white-color-FFFFFF);
+}
+.enjoyPrise {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary-font-color-151515);
+  margin-bottom: 24px;
+}
+.enjoyPrise.dark {
+  color: var(--white-color-FFFFFF);
+}
+.enjoyPrise.dark span {
+  color: var(--white-color-FFFFFF);
+}
+.enjoyPrise span {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--primary-font-color-151515);
+}
+.enjoyBtn {
+  width: 352px;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--white-color-FFFFFF);
+  background-color: var(--btn-color-primary-656293);
+  border-radius: 12px;
+}
+.enjoyBtn.dark {
+  background-color: var(--white-color-FFFFFF);
+  color: var(--primary-font-color-151515);
+}

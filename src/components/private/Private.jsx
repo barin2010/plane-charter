@@ -6,12 +6,13 @@ import saloon_1X from '../../images/private/saloon_1x.png';
 import saloon_2X from '../../images/private/saloon_2x.png';
 import bg_left from '../../images/private/Rectangle_left.svg';
 import bg_right from '../../images/private/Rectangle_right.svg';
+import Flight from 'components/flight/Flight';
 
 const Private = () => {
   return (
     <section className={css.private}>
       <div className="container">
-        <div className={css.privateWrapper}>
+        <div id="private" className={css.privateWrapper}>
           <img className={css.backgroundLeft} src={bg_left} alt="background" />
           <img
             className={css.backgroundRight}
@@ -61,6 +62,7 @@ const Private = () => {
               />
             </li>
           </ul>
+          <Flight />
         </div>
       </div>
     </section>

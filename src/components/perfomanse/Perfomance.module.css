@@ -22,7 +22,42 @@
   gap: 30px;
 }
 .perfomanceItem {
+  width: 370px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  padding: 40px 51px 51px 51px;
+  box-shadow: 0 1px 3px 0 rgba(19, 10, 46, 0.13),
+    0 3px 14px 0 rgba(19, 10, 46, 0.03), 0 8px 32px 0 rgba(19, 10, 46, 0.07),
+    0 30px 84px 0 rgba(19, 10, 46, 0.08);
+}
+.perfomanceIcon {
+  width: 55px;
+  height: 55px;
+  margin-bottom: 13px;
+}
+.perfomanceText {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 11px;
+}
+.perfomanceDesc {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2%;
+  opacity: 60%;
+}
+
+.perfomanceImgBox {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 119px;
+}
+.perfomanceImg {
+  width: 297px;
+  margin: auto 0;
 }
